@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Escape From Tarkov Primer</title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="styles/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="form">
+        <form action="/action_page.php">
+            <label for="info">What are you looking for?</label><br>
+            <select id="info" name="info">
+                <optgroup label="Maps">
+                    <option value="customs" id="customs">Customs</option>
+                    <option value="shoreline" id="shoreline">Shoreline</option>
+                    <option value="factory" id="factory">Factory</option>
+                    <option value="labs" id="labs">Labs</option>
+                    <option value="reserve" id="reserve">Reserve</option>
+                    <option value="interchange" id="interchange">Interchange</option>
+                </optgroup>
+                <option value="ammo" id="ammo">Ammo</option>
+            </select>
+        </form>
+    </div> 
+    <img src="images/customs.png" id="customsMap" alt="blank" style="display: none;" />
+    <img src="images/shoreline.jpg" id="shorelineMap" alt="blank" style="display: none;" />
+    <img src="images/interchange.jpg" id="interchangeMap" alt="blank" style="display: none;" />
+    <img src="images/factory.png" id="factoryMap" alt="blank" style="display: none;" />
+    <img src="images/labs.jpg" id="labsMap" alt="blank" style="display: none;" />
+    <img src="images/reserve.jpg" id="reserveMap" alt="blank" style="display: none;" />
+    <img src="images/ammo.png" id="ammoMap" alt="blank" style="display: none;" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
