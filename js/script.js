@@ -1,5 +1,9 @@
-$('#info').one("click", function() {
-    $('.form').animate({'marginTop':"-=25%"});
+var flag = true;
+$('option').click( function() {
+    if(flag){
+        $('.form').animate({'marginTop':"-=25%"});
+    }
+    flag = false;
     return false;
 });
 $('#customs').click( function() {

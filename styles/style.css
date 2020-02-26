@@ -14,14 +14,15 @@ body {
     width: 50%;
     margin: 25% auto 0;
 }
-
-label {
+#info {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Open Sans', 'Helvetica Neue', 'Segoe UI', 'Calibri', 'Arial', sans-serif;
+    font-size: 18px;
     color: white;
-    font-size: large;
-    font-weight: bolder;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
 img {
     width: 100%;
 }
